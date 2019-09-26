@@ -21,7 +21,7 @@ class FormUserDetails extends Component {
           <AppBar title="Enter User details"/>
           <TextField
             hinttext="Enter your first name"
-            name="first-name"
+            name="firstName"
             floatingLabelText="First Name"
             onChange={handleChange}
             defaultValue={values.firstName}
@@ -29,7 +29,7 @@ class FormUserDetails extends Component {
           <br/>
           <TextField
             hinttext="Enter your last name"
-            name="last-name"
+            name="lastName"
             floatingLabelText="Last Name"
             onChange={handleChange}
             defaultValue={values.lastName}
